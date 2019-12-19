@@ -37,6 +37,10 @@ The following items are now able to be used as fuel:
 		Monster Jerky
 		Monster Lasagna
 
+	Seasonal:
+		Eternal Fruitcake
+		Holiday Cheer
+
 	Misc:
 		Bearger Fur
 		Trap
@@ -54,7 +58,7 @@ I may make this configurable in the future but in all honesty im pretty lazy so 
 Source is available here: https://github.com/Kareth-io/DST-more-fuels]]
 
 author = "Kareth"
-version = "1.05"
+version = "1.06"
 
 forumthread = ""
 
