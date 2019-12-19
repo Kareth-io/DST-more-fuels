@@ -39,6 +39,10 @@ The following items are now able to be used as fuel:
 		Cooked Monster Meat
 		Monster Jerky
 		Monster Lasagna
+		
+	Seasonal:
+		Eternal Fruitcake
+		Holiday Cheer
 
 	Misc:
 		Bearger Fur
