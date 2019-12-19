@@ -1,4 +1,3 @@
--- Function Presets --
 -- I just stole these from the previous mod, I also removed the duplicate functions they had. 
 local function tiny_fuel(inst)
         if not inst.components.fuel then
@@ -37,8 +36,6 @@ local function large_fuel(inst)
     inst.components.fuel.fuelvalue = TUNING.LARGE_FUEL
 end
 
--- The original creator of this mod didn't have different variants nightmare fuel
--- And I can't be bothered to add them in myself yet, no one uses night lights anyways :^)
 local function dark_fuel(inst)
         if not inst.components.fuel then
                 inst:AddComponent("fuel")
@@ -47,10 +44,8 @@ local function dark_fuel(inst)
     inst.components.fuel.fuelvalue = TUNING.LARGE_FUEL
 end
 
--- End Function Presets --
 
 -- A table used to define all of the items we want to add as fuel and the preset we wish to apply to them --
--- I'll make this configurable later if anyone  bitches about it --
 
 new_fuels = { 
     --Golden Tools ---
@@ -84,6 +79,10 @@ new_fuels = {
     ["strawhat"] = large_fuel,
     ["flowerhat"] = large_fuel,
 
+    -- Seasonal --
+    ["winter_food4"] = med_fuel,
+    ["wintersfeastfuel"] = medlarge_fuel,
+
     -- Spook --
     ["petals_evil"] = dark_fuel,
     ["monstermeat"] = dark_fuel,
@@ -104,6 +103,7 @@ new_fuels = {
     ["silk"] = small_fuel
 }
 
+-- Add all the fuels from the table --
 for fuel, ftype in pairs(new_fuels) do
     AddPrefabPostInit(fuel, ftype)
 end
