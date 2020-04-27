@@ -58,7 +58,7 @@ I may make this configurable in the future but in all honesty im pretty lazy so 
 Source is available here: https://github.com/Kareth-io/DST-more-fuels]]
 
 author = "Kareth"
-version = "1.06"
+version = "1.07"
 
 forumthread = ""
 
