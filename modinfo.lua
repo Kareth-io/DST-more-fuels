@@ -62,6 +62,8 @@ The following items are now able to be used as fuel:
 		Blue Feather
 		Yellow Feather
 		Silk
+		Lavae Egg
+		Chilled Lavae
 
 I may make this configurable in the future but in all honesty im pretty lazy so I wouldn't hold your breath.
 

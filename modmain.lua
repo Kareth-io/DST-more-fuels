@@ -1,4 +1,9 @@
 -- Fuel Sizes
+-- They just return a preset number used by the vanilla items.
+
+-- For some reason instead of adding another size tier, they've been multiplying the large tier for things like glow berries. 
+-- See scripts/prefabs/wormlight.lua:127
+xlarge    = TUNING.LARGE_FUEL * 1.33
 large     = TUNING.LARGE_FUEL
 medium    = TUNING.MED_FUEL
 medlarge  = TUNING.MED_LARGE_FUEL
@@ -51,10 +56,11 @@ new_fuels = {
     ["deserthat"]            = { ["ftype"] = normal, ["fsize"] = large },
     ["strawhat"]             = { ["ftype"] = normal, ["fsize"] = large },
     ["flowerhat"]            = { ["ftype"] = normal, ["fsize"] = large },
+    ["walrushat"]            = { ["ftype"] = normal, ["fsize"] = large },
 
     -- Seasonal --
-    ["winter_food4"]         = { ["ftype"] = normal, ["fsize"] = medium },
-    ["wintersfeastfuel"]     = { ["ftype"] = normal, ["fsize"] = medlarge },
+    ["winter_food4"]         = { ["ftype"] = normal, ["fsize"] = medium }, --Fruit Cake
+    ["wintersfeastfuel"]     = { ["ftype"] = normal, ["fsize"] = medlarge }, -- Holiday Cheer
 
     -- Spook --
     ["petals_evil"]          = { ["ftype"] = nightmare, ["fsize"] = medium },
@@ -76,6 +82,8 @@ new_fuels = {
     ["feather_robin"]        = { ["ftype"] = normal, ["fsize"] = medium },
     ["feather_canary"]       = { ["ftype"] = normal, ["fsize"] = medium },
     ["silk"]                 = { ["ftype"] = normal, ["fsize"] = small },
+    ["lavae_cocoon"]         = { ["ftype"] = normal, ["fsize"] = large},
+    ["lavae_egg"]            = { ["ftype"] = normal, ["fsize"] = large},
     ["moon_tree_blossom"]    = { ["ftype"] = cave, ["fsize"] = xlarge },
     ["moonbutterflywings"]   = { ["ftype"] = cave, ["fsize"] = large},
     ["mole"]                 = { ["ftype"] = moggles, ["fsize"] = xlarge },
