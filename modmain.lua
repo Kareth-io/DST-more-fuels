@@ -35,6 +35,9 @@ new_fuels = {
     ["shovel"]               = { ["ftype"] = normal, ["fsize"] = medlarge },
     ["pitchfork"]            = { ["ftype"] = normal, ["fsize"] = medlarge },
     ["hammer"]               = { ["ftype"] = normal, ["fsize"] = medlarge },
+    ["firestaff"]            = { ["ftype"] = normal, ["fsize"] = large},
+    ["icestaff"]             = { ["ftype"] = normal, ["fsize"] = large},
+    ["telestaff"]            = { ["ftype"] = normal, ["fsize"] = large},
 
     -- Hats --
     ["spiderhat"]            = { ["ftype"] = normal, ["fsize"] = large },
@@ -59,6 +62,7 @@ new_fuels = {
     ["cookedmonstermeat"]    = { ["ftype"] = nightmare, ["fsize"] = medium },
     ["monstermeat_dried"]    = { ["ftype"] = nightmare, ["fsize"] = medium },
     ["monsterlasagna"]       = { ["ftype"] = nightmare, ["fsize"] = large },
+    ["ghostflower"]          = { ["ftype"] = nightmare, ["fsize"] = xlarge},
 
     -- Misc --
     ["bearger_fur"]          = { ["ftype"] = normal, ["fsize"] = large },
@@ -72,6 +76,9 @@ new_fuels = {
     ["feather_robin"]        = { ["ftype"] = normal, ["fsize"] = medium },
     ["feather_canary"]       = { ["ftype"] = normal, ["fsize"] = medium },
     ["silk"]                 = { ["ftype"] = normal, ["fsize"] = small },
+    ["moon_tree_blossom"]    = { ["ftype"] = cave, ["fsize"] = xlarge },
+    ["moonbutterflywings"]   = { ["ftype"] = cave, ["fsize"] = large},
+    ["mole"]                 = { ["ftype"] = moggles, ["fsize"] = xlarge },
 }
 
 -- Single function that just uses the tables to tweak the instances.

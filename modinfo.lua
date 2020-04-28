@@ -16,6 +16,7 @@ The following items are now able to be used as fuel:
 		Shovel
 		Pitchfork
 		Hammer
+		Red/Blue/Purple Staffs
 
 	Hats:
 		Spider Queen Hat
@@ -29,6 +30,7 @@ The following items are now able to be used as fuel:
 		Fashion Goggles
 		Straw Hat
 		Garland
+		Tam o' Shanter
 
 	Spooky (Only used for night lights):
 		Dark Petals
@@ -36,6 +38,14 @@ The following items are now able to be used as fuel:
 		Cooked Monster Meat
 		Monster Jerky
 		Monster Lasagna
+		Mourning Glory
+
+	Cave (Lantern/Mining Helmet):
+		Lune Tree Blossom
+		Moon Moth Wings
+
+	Moggles:
+		Moles
 
 	Seasonal:
 		Eternal Fruitcake
