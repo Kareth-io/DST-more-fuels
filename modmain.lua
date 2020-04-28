@@ -84,8 +84,8 @@ new_fuels = {
     ["silk"]                 = { ["ftype"] = normal, ["fsize"] = small },
     ["lavae_cocoon"]         = { ["ftype"] = normal, ["fsize"] = large},
     ["lavae_egg"]            = { ["ftype"] = normal, ["fsize"] = large},
-    ["moon_tree_blossom"]    = { ["ftype"] = cave, ["fsize"] = xlarge },
-    ["moonbutterflywings"]   = { ["ftype"] = cave, ["fsize"] = large},
+    ["moon_tree_blossom"]    = { ["ftype"] = lantern, ["fsize"] = xlarge },
+    ["moonbutterflywings"]   = { ["ftype"] = lantern, ["fsize"] = large},
     ["mole"]                 = { ["ftype"] = moggles, ["fsize"] = xlarge },
 }
 
